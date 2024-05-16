@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <title>Alura Geek</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="head">
+            <h1>Alura Geek</h1>
+        </header>
+
+        <aside class="aside">
+            <h2 class="crud-title">Formulario</h2>
+            <form class="crud-form" method="POST">
+                <label>Nombre del Producto:</label>
+                <br>
+                <input type="text" name="title" placeholder="Nombre del Producto" required>
+                <br>
+                <label>URL:</label>
+                <br>
+                <input type="text" name="src" placeholder="Ej: https://imagen.png" required>
+                <br>
+                <label>Valor</label>
+                <br>
+                <input type="number" name="price" placeholder="Ej: 3000" minlength="4" required>
+                <br>
+                <input type="submit" value="Enviar" class="submit">
+                <input type="hidden" name="id" value="">
+            </form>
+        </aside>
+
+        <main class="main">
+            <div class="container-items"></div>
+        </main>
+
+        <template id="crud-template">
+
+            <div class="product">
+                <img src="" alt="" class="image_product">
+                <div class="data-product">
+                    <h3 class="title-product"></h3>
+                    <h4 class="price-product">$$</h4>
+                    <button class="edit">Editar</button>
+                    <button class="delete">Eliminar</button>
+                </div>
+            </div>
+
+        </template>
+    </div>
+
+    <script type="module" src="js/crud_api.js"></script>
+</body>
+
+</html>

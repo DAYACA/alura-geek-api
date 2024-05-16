@@ -1,0 +1,100 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 90px auto;
+    grid-template-areas: 
+    'header header header'
+    'aside main main'
+    'aside main main';
+}
+
+.head{
+    grid-area: header;
+    justify-content: center;
+    text-align: center;
+    background-color: coral;
+
+}
+
+.aside{
+    height: 30vh;
+    width: 24%;
+    grid-area: aside;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vh;
+    position: fixed;
+    top: 30vh;
+}
+
+.aside > h2{
+    text-align: center;
+}
+
+.main{
+    grid-area: main;
+    background-color: ghostwhite;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+input,
+label{
+    margin: 1rem;
+}
+
+input{
+    height: 30px;
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.submit{
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: darkseagreen;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+/* CARDS */
+.container-items{
+    display: flex;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+}
+
+.product{
+    height:21rem;
+    width: 15rem;
+    margin: 2rem;
+    background-color: coral;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.product > img{
+    height: 10rem;
+    width: 100%;
+    /* max-width: 100%;
+    height: auto; */
+    background-size: 100% 100%;
+    background-size: cover;
+    /* width: 100%;
+    height: auto; */
+    background-color: #fff;
+}
+
+.data-product{
+    padding-left: 1rem;
+}
+
+.product:hover,
+.submit:hover{
+    transform: scale(.9); 
+}

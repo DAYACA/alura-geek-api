@@ -1,0 +1,40 @@
+{
+  "articulos": [
+    {
+      "title": "BMW",
+      "src": "https://d2ivfcfbdvj3sm.cloudfront.net/7fc965ab77efe6e0fa62e4ca1ea7673bb25f43560e1e3d8e88cb10/stills_0640_png/MY2022/15275/15275_st0640_116.png",
+      "price": "3.000",
+      "id": "1"
+    },
+    {
+      "id": "fd61",
+      "title": "Jeep",
+      "src": "https://w7.pngwing.com/pngs/409/564/png-transparent-2018-jeep-wrangler-jk-rubicon-2017-jeep-wrangler-2016-jeep-wrangler-car-jeep-jeep-wrangler-car-car-accident-vintage-car-off-road-vehicle.png",
+      "price": "5.555"
+    },
+    {
+      "title": "Lamborghini",
+      "src": "https://e7.pngegg.com/pngimages/393/209/png-clipart-lamborghini-lamborghini.png",
+      "price": "6.000",
+      "id": "6278"
+    },
+    {
+      "id": "5851",
+      "title": "Jeep",
+      "src": "https://w7.pngwing.com/pngs/409/564/png-transparent-2018-jeep-wrangler-jk-rubicon-2017-jeep-wrangler-2016-jeep-wrangler-car-jeep-jeep-wrangler-car-car-accident-vintage-car-off-road-vehicle.png",
+      "price": "3.222"
+    },
+    {
+      "id": "cfe7",
+      "title": "Aston Martin",
+      "src": "https://www.pngall.com/wp-content/uploads/2016/06/Aston-Martin-Download-PNG.png",
+      "price": "2.222"
+    },
+    {
+      "id": "b379",
+      "title": "Mercedez AMG",
+      "src": "https://www.wardsauto.com/sites/wardsauto.com/files/Mercedes-AMG%20C%2043%20Sedan%2023.png",
+      "price": "120.000"
+    }
+  ]
+}
